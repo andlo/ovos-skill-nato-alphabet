@@ -5,11 +5,11 @@
   "pip_spec": "ovos-skill-nato-alphabet",
   "license": "GPL-3.0-or-later",
   "author": "andlo",
-  "name": "NatoAlphabet",
-  "description": "Spells words using the NATO phonetic alphabet (Alpha, Bravo, Charlie...) - 'spell Andreas' -> 'Alfa, November, Delta, Romeo, Echo, Alfa, Sierra'. Genuinely practical for dictating serial numbers, emails, or names over the phone. Pure text-to-table lookup, zero ambiguity, no external dependencies at all.",
+  "name": "NATO Alphabet",
+  "description": "Spells a word using the NATO/ICAO phonetic alphabet - Alfa, Bravo, Charlie. Fully offline, pure lookup table.",
   "examples": [
     "spell Andreas",
-    "how do you spell hello using the phonetic alphabet"
+    "how do you spell hello"
   ],
   "tags": [
     "spelling",

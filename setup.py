@@ -74,7 +74,7 @@ setup(
     license="GPL-3.0-or-later",
     python_requires=">=3.9",
     classifiers=[
-        "Development Status :: 1 - Planning",
+        "Development Status :: 3 - Alpha",
         "Intended Audience :: End Users/Desktop",
         "Programming Language :: Python :: 3",
         "Topic :: Multimedia :: Sound/Audio :: Speech",

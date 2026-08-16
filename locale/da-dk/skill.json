@@ -5,16 +5,16 @@
   "pip_spec": "ovos-skill-nato-alphabet",
   "license": "GPL-3.0-or-later",
   "author": "andlo",
-  "name": "NatoAlphabet",
-  "description": "Staver ord med det NATO-fonetiske alfabet (Alfa, Bravo, Charlie...) - 'stav Andreas' -> 'Alfa, November, Delta, Romeo, Echo, Alfa, Sierra'. Genuint praktisk til at diktere serienumre, e-mails eller navne over telefonen. Ren tekst-til-tabel-opslag, ingen tvetydighed, ingen eksterne afhaengigheder overhovedet.",
+  "name": "NATO Alfabetet",
+  "description": "Staver et ord med det NATO/ICAO fonetiske alfabet - Alfa, Bravo, Charlie. Fuldstændig offline, ren opslagstabel.",
   "examples": [
     "stav Andreas",
-    "hvordan staver man hej med det fonetiske alfabet"
+    "hvordan staver man hej"
   ],
   "tags": [
-    "spelling",
+    "stavning",
     "nato",
-    "phonetic alphabet",
+    "fonetisk alfabet",
     "utility"
   ],
   "icon": "https://raw.githubusercontent.com/andlo/ovos-skill-nato-alphabet/main/icon.png"
