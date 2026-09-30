@@ -8,8 +8,8 @@
   "name": "NATO Alfabetet",
   "description": "Staver et ord med det NATO/ICAO fonetiske alfabet - Alfa, Bravo, Charlie. Fuldstændig offline, ren opslagstabel.",
   "examples": [
-    "stav Andreas",
-    "hvordan staver man hej"
+    "stav Andreas med nato alfabetet",
+    "hvordan staver man hej fonetisk"
   ],
   "tags": [
     "stavning",

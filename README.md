@@ -1,6 +1,6 @@
 # <img src='icon.png' card_color='#DB6140' width='50' height='50' style='vertical-align:bottom'/> NATO Alphabet
 
-Spells a word using the NATO/ICAO phonetic alphabet - "spell Andreas"
+Spells a word using the NATO/ICAO phonetic alphabet - "spell Andreas using the nato alphabet"
 -> "Alfa, November, Delta, Romeo, Echo, Alfa, Sierra". Genuinely
 practical for dictating serial numbers, emails, or names over the
 phone. Pure text-to-table lookup, zero ambiguity, no external
@@ -11,10 +11,15 @@ dependencies at all.
 
 ## Usage
 ```
-"spell Andreas"
-"how do you spell hello"
-"stav Andreas"          (Danish)
+"spell Andreas using the nato alphabet"
+"how do you spell hello phonetically"
+"what is hello in nato"
+"stav Andreas med nato alfabetet"   (Danish)
 ```
+
+Only when the NATO, phonetic or radio alphabet is asked for: a plain
+"spell hello" or "how do you spell hello" wants the letters, and belongs to
+OVOS's own spelling skill.
 
 ## Not translated: the alphabet itself
 
