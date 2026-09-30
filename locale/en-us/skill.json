@@ -8,8 +8,8 @@
   "name": "NATO Alphabet",
   "description": "Spells a word using the NATO/ICAO phonetic alphabet - Alfa, Bravo, Charlie. Fully offline, pure lookup table.",
   "examples": [
-    "spell Andreas",
-    "how do you spell hello"
+    "spell Andreas using the nato alphabet",
+    "how do you spell hello phonetically"
   ],
   "tags": [
     "spelling",

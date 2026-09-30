@@ -70,3 +70,16 @@ def test_handle_spell_word_no_spellable_characters(skill):
     skill.handle_spell_word(message)
     skill.speak_dialog.assert_called_once_with(
         "nothing_spellable", {"word": "!!!"})
+
+
+
+def test_every_template_names_the_alphabet():
+    """issue #1: a plain "spell X" / "how do you spell X" belongs to OVOS's
+    spelling skill - every template here asks for the NATO/phonetic alphabet."""
+    from pathlib import Path
+    words = {"en-us": ("nato", "phonetic", "radio"), "da-dk": ("nato", "fonetisk", "radio")}
+    root = Path(__file__).resolve().parents[1] / "locale"
+    for lang, markers in words.items():
+        for line in (root / lang / "spell_word.intent").read_text().splitlines():
+            if line.strip():
+                assert any(m in line for m in markers), f"{lang}: {line!r}"
