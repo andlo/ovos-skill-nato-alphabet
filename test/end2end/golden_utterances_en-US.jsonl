@@ -1,0 +1,3 @@
+{"utterance": "spell ovos using the nato alphabet", "lang": "en-US", "skill_id": "ovos-skill-nato-alphabet.andlo", "intent_label": "spell_word"}
+{"utterance": "spell hello using the phonetic alphabet", "lang": "en-US", "skill_id": "ovos-skill-nato-alphabet.andlo", "intent_label": "spell_word"}
+{"utterance": "spell london using the radio alphabet", "lang": "en-US", "skill_id": "ovos-skill-nato-alphabet.andlo", "intent_label": "spell_word"}
